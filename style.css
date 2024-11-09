@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c2230;
+    color: #ffffff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header-container:hover{
+    color: #31b8e9;
+}
+.nk:hover{
+color: #31b8e9;
+
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-content h2 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.hero-content p {
+    color: #c7c7c7;
+    margin-bottom: 20px;
+}
+
+.get-started {
+    background-color: #31b8e9;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.feature-item {
+    max-width: 200px;
+    
+    
+}
+img {
+    max-width: 100%; 
+    height: auto;
+    position: relative;
+}
+
+.productivity {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #121828;
+}
+
+.productivity button{
+    margin-top: 18px;
+}
+
+.productivity img{
+    height: 250px;
+    width: 300px;
+}
+
+.learn-more {
+    background-color: #31b8e9;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #1c2230;
+}
+
+.testimonial {
+    max-width: 300px;
+    text-align: center;
+    background-color: #2a3244;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.signup {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #121828;
+}
+
+.signup form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.signup button{
+    padding: 10px;
+    color:white;
+    background-color: #284bab;
+    border-radius: 10px;
+}
+.signup input{
+    border-radius:10px;
+    padding-left: 6px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #1c2230;
+    
+}
+
+.footer-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
